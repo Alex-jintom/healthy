@@ -1,9 +1,9 @@
-<?php include  $_SERVER['DOCUMENT_ROOT']."/db.php"; ?>
+<?php include  $_SERVER['DOCUMENT_ROOT']."db.php"; ?>
 <!doctype html>
 <head>
 <meta charset="UTF-8">
 <title>게시판</title>
-<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" type="text/css" href="/css/style.css" />
 </head>
 <body>
 <div id="board_area"> 
