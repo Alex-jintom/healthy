@@ -1,5 +1,5 @@
 <?php
-include '/var/www/html/healthy/db.php';
+include $_SERVER['DOCUMENT_ROOT'] . "/healthy/db.php"; 
 
 $bno = $_GET['idx'];
 $username = $_POST['name'];

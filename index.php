@@ -1,4 +1,4 @@
-<?php include '/var/www/html/healthy/db.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . "/healthy/db.php";  ?>
 <!doctype html>
 <head>
 <meta charset="UTF-8">

@@ -1,4 +1,6 @@
-
+<?php
+	include $_SERVER['DOCUMENT_ROOT'] . "/healthy/db.php";  /* db load */
+?>
 <!doctype html>
 <head>
 <meta charset="UTF-8">

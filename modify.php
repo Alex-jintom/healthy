@@ -1,6 +1,6 @@
 <!--- 게시글 수정 -->
 <?php
-	include '/var/www/html/healthy/db.php';
+	include $_SERVER['DOCUMENT_ROOT'] . "/healthy/db.php"; 
    
 	$bno = $_GET['idx'];
 	$sql = mq("select * from board where idx='$bno';");
