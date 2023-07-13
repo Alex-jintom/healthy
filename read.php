@@ -1,6 +1,4 @@
-<?php
-	include '/var/www/html/healthy/db.php'; /* db load */
-?>
+
 <!doctype html>
 <head>
 <meta charset="UTF-8">
